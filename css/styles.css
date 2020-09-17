@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #16A085;
+    background-color: #16A085;
+}
+
+.container{
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.price-box{
+    background-color: white;
+    width: 600px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 40px 50px 150px;
+    background-image: url(../img/bicycle.png);
+    background-position: 0px 190px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.price-box-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.price-box-top-heading{
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin: 0;
+}
+
+.price-box-top-account-link{
+    margin-left: auto;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    padding: 6px;
+    transition: box-shadow 0.3s ease;
+}
+
+.price-box-top-account-link:hover{
+    box-shadow: 0px 0px 0px 4px #eee;
+}
+
+.price-box-top-img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.price-box-description{
+    color: #C1C1C1;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.price-box-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.price-box-list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.price-box-name{
+    color: #5C5C5C;
+    font-weight: 500;
+    margin: 0;
+}
+
+.price-box-amount{
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+    margin-left: auto;
+}
+
+.total-name{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
